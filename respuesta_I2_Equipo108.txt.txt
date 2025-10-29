@@ -13,3 +13,16 @@ no, no los perdi a menos que lo sobreescriba el git al actualizarlo.
 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+
+Lo hicimos con pull request y sincronizando el fork, unicamnete por github, pero aca hay una serie de pasos de como se podria hacer:
+  .git clone https://github.com/TU_USERNAME/REPO.git
+  .cd REPO
+  .git remote add upstream https://github.com/ORIGINAL_OWNER/REPO.git
+  .git remote -v
+  .git checkout -b mi-trabajo # crear rama para tus cambios
+  .git add .
+  .git commit -m "Trabajo TP - [APELLIDO, Nombre]"
+  .git checkout main
+  .git fetch upstream
+  .git merge upstream/main
+  .git push origin main
