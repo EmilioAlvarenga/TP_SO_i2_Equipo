@@ -2,10 +2,14 @@ a-¿Cómo actualizo mi repositorio, al estado que esté el repo que hice FORK?
 haciendo un pull request.
 
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
-no.
+no. solo actualizan el fork principal 
 
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+no. solo actualizan el fork principal
+
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
-el fork?
+el fork? 
+no, no los perdi a menos que lo sobreescriba el git al actualizarlo.
+
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
